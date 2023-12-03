@@ -1,0 +1,1095 @@
+Microsoft Windows [版本 10.0.22631.2715]
+(c) Microsoft Corporation。保留所有权利。
+
+C:\Windows\System32>mysql -uroot  -p
+Enter password: ******
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 8
+Server version: 8.0.35 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2023, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show databases
+    -> ;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+4 rows in set (0.01 sec)
+
+mysql> create database bjpowernode;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> use bjpowernode;
+Database changed
+mysql> show tables;
+Empty set (0.00 sec)
+
+mysql> source C:\DLJD\Mysql课堂笔记\Mysql数据脚本\bjpowernode.sql
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.01 sec)
+
+Query OK, 0 rows affected, 5 warnings (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> show tables;
++-----------------------+
+| Tables_in_bjpowernode |
++-----------------------+
+| dept                  |
+| emp                   |
+| salgrade              |
++-----------------------+
+3 rows in set (0.00 sec)
+
+mysql> drop database bjpowernode;
+Query OK, 3 rows affected (0.04 sec)
+
+mysql> source C:\DLJD\Mysql课堂笔记\Mysql数据脚本\bjpowernode.sql
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+Query OK, 0 rows affected (0.00 sec)
+
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+Query OK, 0 rows affected (0.00 sec)
+
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> create database bjpowernode;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> use bjpowernode;
+Database changed
+mysql> source C:\DLJD\Mysql课堂笔记\Mysql数据脚本\bjpowernode.sql
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.01 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.01 sec)
+
+Query OK, 0 rows affected, 5 warnings (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> show tables;
++-----------------------+
+| Tables_in_bjpowernode |
++-----------------------+
+| dept                  |
+| emp                   |
+| salgrade              |
++-----------------------+
+3 rows in set (0.00 sec)
+
+mysql> desc dept
+    -> ;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| DEPTNO | int         | NO   | PRI | NULL    |       |
+| DNAME  | varchar(14) | YES  |     | NULL    |       |
+| LOC    | varchar(13) | YES  |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> desc emp;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| EMPNO    | int         | NO   | PRI | NULL    |       |
+| ENAME    | varchar(10) | YES  |     | NULL    |       |
+| JOB      | varchar(9)  | YES  |     | NULL    |       |
+| MGR      | int         | YES  |     | NULL    |       |
+| HIREDATE | date        | YES  |     | NULL    |       |
+| SAL      | double(7,2) | YES  |     | NULL    |       |
+| COMM     | double(7,2) | YES  |     | NULL    |       |
+| DEPTNO   | int         | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+8 rows in set (0.00 sec)
+
+mysql> desc salgrade;
++-------+------+------+-----+---------+-------+
+| Field | Type | Null | Key | Default | Extra |
++-------+------+------+-----+---------+-------+
+| GRADE | int  | YES  |     | NULL    |       |
+| LOSAL | int  | YES  |     | NULL    |       |
+| HISAL | int  | YES  |     | NULL    |       |
++-------+------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> select * from emp;
++-------+--------+-----------+------+------------+---------+---------+--------+
+| EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL     | COMM    | DEPTNO |
++-------+--------+-----------+------+------------+---------+---------+--------+
+|  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |  800.00 |    NULL |     20 |
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 | 2850.00 |    NULL |     30 |
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450.00 |    NULL |     10 |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1987-04-19 | 3000.00 |    NULL |     20 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 | 5000.00 |    NULL |     10 |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |
+|  7876 | ADAMS  | CLERK     | 7788 | 1987-05-23 | 1100.00 |    NULL |     20 |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 |  950.00 |    NULL |     30 |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 | 3000.00 |    NULL |     20 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300.00 |    NULL |     10 |
++-------+--------+-----------+------+------------+---------+---------+--------+
+14 rows in set (0.00 sec)
+
+mysql> select database();
++-------------+
+| database()  |
++-------------+
+| bjpowernode |
++-------------+
+1 row in set (0.00 sec)
+
+mysql> select version;
+ERROR 1054 (42S22): Unknown column 'version' in 'field list'
+mysql> select version();
++-----------+
+| version() |
++-----------+
+| 8.0.35    |
++-----------+
+1 row in set (0.00 sec)
+
+mysql> show create table emp;
++-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Table | Create Table                                                                                                                                                                                                                                                                                                                                                             |
++-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| emp   | CREATE TABLE `emp` (
+  `EMPNO` int NOT NULL,
+  `ENAME` varchar(10) DEFAULT NULL,
+  `JOB` varchar(9) DEFAULT NULL,
+  `MGR` int DEFAULT NULL,
+  `HIREDATE` date DEFAULT NULL,
+  `SAL` double(7,2) DEFAULT NULL,
+  `COMM` double(7,2) DEFAULT NULL,
+  `DEPTNO` int DEFAULT NULL,
+  PRIMARY KEY (`EMPNO`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci |
++-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+1 row in set (0.00 sec)
+
+mysql> select ename  , sal * 12 from emp;
++--------+----------+
+| ename  | sal * 12 |
++--------+----------+
+| SMITH  |  9600.00 |
+| ALLEN  | 19200.00 |
+| WARD   | 15000.00 |
+| JONES  | 35700.00 |
+| MARTIN | 15000.00 |
+| BLAKE  | 34200.00 |
+| CLARK  | 29400.00 |
+| SCOTT  | 36000.00 |
+| KING   | 60000.00 |
+| TURNER | 18000.00 |
+| ADAMS  | 13200.00 |
+| JAMES  | 11400.00 |
+| FORD   | 36000.00 |
+| MILLER | 15600.00 |
++--------+----------+
+14 rows in set (0.00 sec)
+
+mysql> select ename , sal * 12 as yearsal from emp;
++--------+----------+
+| ename  | yearsal  |
++--------+----------+
+| SMITH  |  9600.00 |
+| ALLEN  | 19200.00 |
+| WARD   | 15000.00 |
+| JONES  | 35700.00 |
+| MARTIN | 15000.00 |
+| BLAKE  | 34200.00 |
+| CLARK  | 29400.00 |
+| SCOTT  | 36000.00 |
+| KING   | 60000.00 |
+| TURNER | 18000.00 |
+| ADAMS  | 13200.00 |
+| JAMES  | 11400.00 |
+| FORD   | 36000.00 |
+| MILLER | 15600.00 |
++--------+----------+
+14 rows in set (0.00 sec)
+
+mysql> select ename,sal * 12 as '年薪' from emp;
++--------+----------+
+| ename  | 年薪     |
++--------+----------+
+| SMITH  |  9600.00 |
+| ALLEN  | 19200.00 |
+| WARD   | 15000.00 |
+| JONES  | 35700.00 |
+| MARTIN | 15000.00 |
+| BLAKE  | 34200.00 |
+| CLARK  | 29400.00 |
+| SCOTT  | 36000.00 |
+| KING   | 60000.00 |
+| TURNER | 18000.00 |
+| ADAMS  | 13200.00 |
+| JAMES  | 11400.00 |
+| FORD   | 36000.00 |
+| MILLER | 15600.00 |
++--------+----------+
+14 rows in set (0.00 sec)
+
+mysql> select ename , sal *12 '年薪' from emp;
++--------+----------+
+| ename  | 年薪     |
++--------+----------+
+| SMITH  |  9600.00 |
+| ALLEN  | 19200.00 |
+| WARD   | 15000.00 |
+| JONES  | 35700.00 |
+| MARTIN | 15000.00 |
+| BLAKE  | 34200.00 |
+| CLARK  | 29400.00 |
+| SCOTT  | 36000.00 |
+| KING   | 60000.00 |
+| TURNER | 18000.00 |
+| ADAMS  | 13200.00 |
+| JAMES  | 11400.00 |
+| FORD   | 36000.00 |
+| MILLER | 15600.00 |
++--------+----------+
+14 rows in set (0.00 sec)
+
+mysql> select * from emp;
++-------+--------+-----------+------+------------+---------+---------+--------+
+| EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL     | COMM    | DEPTNO |
++-------+--------+-----------+------+------------+---------+---------+--------+
+|  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |  800.00 |    NULL |     20 |
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 | 2850.00 |    NULL |     30 |
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450.00 |    NULL |     10 |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1987-04-19 | 3000.00 |    NULL |     20 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 | 5000.00 |    NULL |     10 |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |
+|  7876 | ADAMS  | CLERK     | 7788 | 1987-05-23 | 1100.00 |    NULL |     20 |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 |  950.00 |    NULL |     30 |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 | 3000.00 |    NULL |     20 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300.00 |    NULL |     10 |
++-------+--------+-----------+------+------------+---------+---------+--------+
+14 rows in set (0.00 sec)
+
+mysql> select ename from emp where sal = 5000;
++-------+
+| ename |
++-------+
+| KING  |
++-------+
+1 row in set (0.00 sec)
+
+mysql> select sal from emp where ename = 'SMITH';
++--------+
+| sal    |
++--------+
+| 800.00 |
++--------+
+1 row in set (0.00 sec)
+
+mysql> select ename,sal from emp where sal > 1000;
++--------+---------+
+| ename  | sal     |
++--------+---------+
+| ALLEN  | 1600.00 |
+| WARD   | 1250.00 |
+| JONES  | 2975.00 |
+| MARTIN | 1250.00 |
+| BLAKE  | 2850.00 |
+| CLARK  | 2450.00 |
+| SCOTT  | 3000.00 |
+| KING   | 5000.00 |
+| TURNER | 1500.00 |
+| ADAMS  | 1100.00 |
+| FORD   | 3000.00 |
+| MILLER | 1300.00 |
++--------+---------+
+12 rows in set (0.00 sec)
+
+mysql> select ename,sal from emp where sal <> 1000;
++--------+---------+
+| ename  | sal     |
++--------+---------+
+| SMITH  |  800.00 |
+| ALLEN  | 1600.00 |
+| WARD   | 1250.00 |
+| JONES  | 2975.00 |
+| MARTIN | 1250.00 |
+| BLAKE  | 2850.00 |
+| CLARK  | 2450.00 |
+| SCOTT  | 3000.00 |
+| KING   | 5000.00 |
+| TURNER | 1500.00 |
+| ADAMS  | 1100.00 |
+| JAMES  |  950.00 |
+| FORD   | 3000.00 |
+| MILLER | 1300.00 |
++--------+---------+
+14 rows in set (0.00 sec)
+
+mysql> select C:\DLJD\Mysql课堂笔记\Mysql数据脚本C:\DLJD\Mysql课堂笔记\Mysql数据脚本^Z^C
+mysql> select ename,sal from emp where sal >1000 and sal <3000;
++--------+---------+
+| ename  | sal     |
++--------+---------+
+| ALLEN  | 1600.00 |
+| WARD   | 1250.00 |
+| JONES  | 2975.00 |
+| MARTIN | 1250.00 |
+| BLAKE  | 2850.00 |
+| CLARK  | 2450.00 |
+| TURNER | 1500.00 |
+| ADAMS  | 1100.00 |
+| MILLER | 1300.00 |
++--------+---------+
+9 rows in set (0.00 sec)
+
+mysql> select ename,sal from emp between 1000 and 3000;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'between 1000 and 3000' at line 1
+mysql> select ename ,sal from emp where sal between 1000 and 3000;
++--------+---------+
+| ename  | sal     |
++--------+---------+
+| ALLEN  | 1600.00 |
+| WARD   | 1250.00 |
+| JONES  | 2975.00 |
+| MARTIN | 1250.00 |
+| BLAKE  | 2850.00 |
+| CLARK  | 2450.00 |
+| SCOTT  | 3000.00 |
+| TURNER | 1500.00 |
+| ADAMS  | 1100.00 |
+| FORD   | 3000.00 |
+| MILLER | 1300.00 |
++--------+---------+
+11 rows in set (0.00 sec)
+
+mysql> select ename ,sal from emp where ename between 'a' and 'c';
++-------+---------+
+| ename | sal     |
++-------+---------+
+| ALLEN | 1600.00 |
+| BLAKE | 2850.00 |
+| ADAMS | 1100.00 |
++-------+---------+
+3 rows in set (0.00 sec)
+
+mysql> select ename , comm from emp where comm is null;
++--------+------+
+| ename  | comm |
++--------+------+
+| SMITH  | NULL |
+| JONES  | NULL |
+| BLAKE  | NULL |
+| CLARK  | NULL |
+| SCOTT  | NULL |
+| KING   | NULL |
+| ADAMS  | NULL |
+| JAMES  | NULL |
+| FORD   | NULL |
+| MILLER | NULL |
++--------+------+
+10 rows in set (0.00 sec)
+
+mysql> select ename,comm from emp where comm is not null;
++--------+---------+
+| ename  | comm    |
++--------+---------+
+| ALLEN  |  300.00 |
+| WARD   |  500.00 |
+| MARTIN | 1400.00 |
+| TURNER |    0.00 |
++--------+---------+
+4 rows in set (0.00 sec)
+
+mysql> select ename, comm from emp where comm=0;
++--------+------+
+| ename  | comm |
++--------+------+
+| TURNER | 0.00 |
++--------+------+
+1 row in set (0.00 sec)
+
+mysql> select ename , comm from emp where comm = 0 or comm is null;
++--------+------+
+| ename  | comm |
++--------+------+
+| SMITH  | NULL |
+| JONES  | NULL |
+| BLAKE  | NULL |
+| CLARK  | NULL |
+| SCOTT  | NULL |
+| KING   | NULL |
+| TURNER | 0.00 |
+| ADAMS  | NULL |
+| JAMES  | NULL |
+| FORD   | NULL |
+| MILLER | NULL |
++--------+------+
+11 rows in set (0.00 sec)
+
+mysql> select ename,job from emp where job='manager' or job='salesman';
++--------+----------+
+| ename  | job      |
++--------+----------+
+| ALLEN  | SALESMAN |
+| WARD   | SALESMAN |
+| JONES  | MANAGER  |
+| MARTIN | SALESMAN |
+| BLAKE  | MANAGER  |
+| CLARK  | MANAGER  |
+| TURNER | SALESMAN |
++--------+----------+
+7 rows in set (0.00 sec)
+
+mysql> select ename,sal,deptno from emp where sal>1000 and deptno=20 or deptno =30;
++--------+---------+--------+
+| ename  | sal     | deptno |
++--------+---------+--------+
+| ALLEN  | 1600.00 |     30 |
+| WARD   | 1250.00 |     30 |
+| JONES  | 2975.00 |     20 |
+| MARTIN | 1250.00 |     30 |
+| BLAKE  | 2850.00 |     30 |
+| SCOTT  | 3000.00 |     20 |
+| TURNER | 1500.00 |     30 |
+| ADAMS  | 1100.00 |     20 |
+| JAMES  |  950.00 |     30 |
+| FORD   | 3000.00 |     20 |
++--------+---------+--------+
+10 rows in set (0.00 sec)
+
+mysql> select ename,sal,deptno from emp where sal >1000 and (deptno=20 or deptno =30);
++--------+---------+--------+
+| ename  | sal     | deptno |
++--------+---------+--------+
+| ALLEN  | 1600.00 |     30 |
+| WARD   | 1250.00 |     30 |
+| JONES  | 2975.00 |     20 |
+| MARTIN | 1250.00 |     30 |
+| BLAKE  | 2850.00 |     30 |
+| SCOTT  | 3000.00 |     20 |
+| TURNER | 1500.00 |     30 |
+| ADAMS  | 1100.00 |     20 |
+| FORD   | 3000.00 |     20 |
++--------+---------+--------+
+9 rows in set (0.00 sec)
+
+mysql> select ename,job from emp where job in ('manager','salesman');
++--------+----------+
+| ename  | job      |
++--------+----------+
+| ALLEN  | SALESMAN |
+| WARD   | SALESMAN |
+| JONES  | MANAGER  |
+| MARTIN | SALESMAN |
+| BLAKE  | MANAGER  |
+| CLARK  | MANAGER  |
+| TURNER | SALESMAN |
++--------+----------+
+7 rows in set (0.00 sec)
+
+mysql> select ename ,sal from emp where sal not in (1000,800);
++--------+---------+
+| ename  | sal     |
++--------+---------+
+| ALLEN  | 1600.00 |
+| WARD   | 1250.00 |
+| JONES  | 2975.00 |
+| MARTIN | 1250.00 |
+| BLAKE  | 2850.00 |
+| CLARK  | 2450.00 |
+| SCOTT  | 3000.00 |
+| KING   | 5000.00 |
+| TURNER | 1500.00 |
+| ADAMS  | 1100.00 |
+| JAMES  |  950.00 |
+| FORD   | 3000.00 |
+| MILLER | 1300.00 |
++--------+---------+
+13 rows in set (0.00 sec)
+
+mysql> select ename from emp where ename like '%o%';
++-------+
+| ename |
++-------+
+| JONES |
+| SCOTT |
+| FORD  |
++-------+
+3 rows in set (0.00 sec)
+
+mysql> select ename from emp where ename like '_o%';
++-------+
+| ename |
++-------+
+| JONES |
+| FORD  |
++-------+
+2 rows in set (0.00 sec)
+
+mysql> show tables;
++-----------------------+
+| Tables_in_bjpowernode |
++-----------------------+
+| dept                  |
+| emp                   |
+| salgrade              |
++-----------------------+
+3 rows in set (0.00 sec)
+
+mysql> select ename from emp;
++--------+
+| ename  |
++--------+
+| SMITH  |
+| ALLEN  |
+| WARD   |
+| JONES  |
+| MARTIN |
+| BLAKE  |
+| CLARK  |
+| SCOTT  |
+| KING   |
+| TURNER |
+| ADAMS  |
+| JAMES  |
+| FORD   |
+| MILLER |
++--------+
+14 rows in set (0.00 sec)
+
+mysql> select ename from emp where ename like '%t';
++-------+
+| ename |
++-------+
+| SCOTT |
++-------+
+1 row in set (0.00 sec)
+
+mysql> select ename,sal from emp order by sal;
++--------+---------+
+| ename  | sal     |
++--------+---------+
+| SMITH  |  800.00 |
+| JAMES  |  950.00 |
+| ADAMS  | 1100.00 |
+| WARD   | 1250.00 |
+| MARTIN | 1250.00 |
+| MILLER | 1300.00 |
+| TURNER | 1500.00 |
+| ALLEN  | 1600.00 |
+| CLARK  | 2450.00 |
+| BLAKE  | 2850.00 |
+| JONES  | 2975.00 |
+| SCOTT  | 3000.00 |
+| FORD   | 3000.00 |
+| KING   | 5000.00 |
++--------+---------+
+14 rows in set (0.00 sec)
+
+mysql> select ename ,sal from emp order by sal asc;
++--------+---------+
+| ename  | sal     |
++--------+---------+
+| SMITH  |  800.00 |
+| JAMES  |  950.00 |
+| ADAMS  | 1100.00 |
+| WARD   | 1250.00 |
+| MARTIN | 1250.00 |
+| MILLER | 1300.00 |
+| TURNER | 1500.00 |
+| ALLEN  | 1600.00 |
+| CLARK  | 2450.00 |
+| BLAKE  | 2850.00 |
+| JONES  | 2975.00 |
+| SCOTT  | 3000.00 |
+| FORD   | 3000.00 |
+| KING   | 5000.00 |
++--------+---------+
+14 rows in set (0.00 sec)
+
+mysql> select ename,sal from emp order by sal desc;
++--------+---------+
+| ename  | sal     |
++--------+---------+
+| KING   | 5000.00 |
+| SCOTT  | 3000.00 |
+| FORD   | 3000.00 |
+| JONES  | 2975.00 |
+| BLAKE  | 2850.00 |
+| CLARK  | 2450.00 |
+| ALLEN  | 1600.00 |
+| TURNER | 1500.00 |
+| MILLER | 1300.00 |
+| WARD   | 1250.00 |
+| MARTIN | 1250.00 |
+| ADAMS  | 1100.00 |
+| JAMES  |  950.00 |
+| SMITH  |  800.00 |
++--------+---------+
+14 rows in set (0.00 sec)
+
+mysql> select ename ,sal from emp order sal desc, ename asc;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sal desc, ename asc' at line 1
+mysql> select ename ,sal from emp order by sal desc ,ename asc;
++--------+---------+
+| ename  | sal     |
++--------+---------+
+| KING   | 5000.00 |
+| FORD   | 3000.00 |
+| SCOTT  | 3000.00 |
+| JONES  | 2975.00 |
+| BLAKE  | 2850.00 |
+| CLARK  | 2450.00 |
+| ALLEN  | 1600.00 |
+| TURNER | 1500.00 |
+| MILLER | 1300.00 |
+| MARTIN | 1250.00 |
+| WARD   | 1250.00 |
+| ADAMS  | 1100.00 |
+| JAMES  |  950.00 |
+| SMITH  |  800.00 |
++--------+---------+
+14 rows in set (0.00 sec)
+
+mysql> select ename ,sal from emp where job = 'salesman' order by sal asc;
++--------+---------+
+| ename  | sal     |
++--------+---------+
+| WARD   | 1250.00 |
+| MARTIN | 1250.00 |
+| TURNER | 1500.00 |
+| ALLEN  | 1600.00 |
++--------+---------+
+4 rows in set (0.00 sec)
+
+mysql> select sum(sal) from emp;
++----------+
+| sum(sal) |
++----------+
+| 29025.00 |
++----------+
+1 row in set (0.00 sec)
+
+mysql> select max(sal) from emp;
+ERROR 2013 (HY000): Lost connection to MySQL server during query
+No connection. Trying to reconnect...
+Connection id:    9
+Current database: bjpowernode
+
++----------+
+| max(sal) |
++----------+
+|  5000.00 |
++----------+
+1 row in set (0.04 sec)
+
+mysql> select min(sal) from emp;
++----------+
+| min(sal) |
++----------+
+|   800.00 |
++----------+
+1 row in set (0.00 sec)
+
+mysql>  select avg(sal) from emp;
++-------------+
+| avg(sal)    |
++-------------+
+| 2073.214286 |
++-------------+
+1 row in set (0.00 sec)
+
+mysql> select count(*) from emp;
++----------+
+| count(*) |
++----------+
+|       14 |
++----------+
+1 row in set (0.01 sec)
+
+mysql> select count(ename) from emp;
++--------------+
+| count(ename) |
++--------------+
+|           14 |
++--------------+
+1 row in set (0.00 sec)
+
+mysql> select count(comm) from emp;
++-------------+
+| count(comm) |
++-------------+
+|           4 |
++-------------+
+1 row in set (0.00 sec)
+
+mysql> select sum(comm) from emp;
++-----------+
+| sum(comm) |
++-----------+
+|   2200.00 |
++-----------+
+1 row in set (0.00 sec)
+
+mysql> select count(*), sum(sal) from emp;
++----------+----------+
+| count(*) | sum(sal) |
++----------+----------+
+|       14 | 29025.00 |
++----------+----------+
+1 row in set (0.00 sec)
+
+mysql> select ename,sal from emp where sal>(select avg(sal) from emp);
++-------+---------+
+| ename | sal     |
++-------+---------+
+| JONES | 2975.00 |
+| BLAKE | 2850.00 |
+| CLARK | 2450.00 |
+| SCOTT | 3000.00 |
+| KING  | 5000.00 |
+| FORD  | 3000.00 |
++-------+---------+
+6 rows in set (0.00 sec)
+
+mysql> select ename,(sal+comm)*12 as yearsal from emp;
++--------+----------+
+| ename  | yearsal  |
++--------+----------+
+| SMITH  |     NULL |
+| ALLEN  | 22800.00 |
+| WARD   | 21000.00 |
+| JONES  |     NULL |
+| MARTIN | 31800.00 |
+| BLAKE  |     NULL |
+| CLARK  |     NULL |
+| SCOTT  |     NULL |
+| KING   |     NULL |
+| TURNER | 18000.00 |
+| ADAMS  |     NULL |
+| JAMES  |     NULL |
+| FORD   |     NULL |
+| MILLER |     NULL |
++--------+----------+
+14 rows in set (0.00 sec)
+
+mysql> select ename,(sal+ifnull(comm,0))*12 as yearsal from emp;
++--------+----------+
+| ename  | yearsal  |
++--------+----------+
+| SMITH  |  9600.00 |
+| ALLEN  | 22800.00 |
+| WARD   | 21000.00 |
+| JONES  | 35700.00 |
+| MARTIN | 31800.00 |
+| BLAKE  | 34200.00 |
+| CLARK  | 29400.00 |
+| SCOTT  | 36000.00 |
+| KING   | 60000.00 |
+| TURNER | 18000.00 |
+| ADAMS  | 13200.00 |
+| JAMES  | 11400.00 |
+| FORD   | 36000.00 |
+| MILLER | 15600.00 |
++--------+----------+
+14 rows in set (0.00 sec)
+
+mysql> select job from emp;
++-----------+
+| job       |
++-----------+
+| CLERK     |
+| SALESMAN  |
+| SALESMAN  |
+| MANAGER   |
+| SALESMAN  |
+| MANAGER   |
+| MANAGER   |
+| ANALYST   |
+| PRESIDENT |
+| SALESMAN  |
+| CLERK     |
+| CLERK     |
+| ANALYST   |
+| CLERK     |
++-----------+
+14 rows in set (0.00 sec)
+
+mysql> select max(sal), job from emp group by job;
++----------+-----------+
+| max(sal) | job       |
++----------+-----------+
+|  1300.00 | CLERK     |
+|  1600.00 | SALESMAN  |
+|  2975.00 | MANAGER   |
+|  3000.00 | ANALYST   |
+|  5000.00 | PRESIDENT |
++----------+-----------+
+5 rows in set (0.00 sec)
+
+mysql> select ename,max(sal),job from emp group by job;
+ERROR 1055 (42000): Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bjpowernode.emp.ENAME' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+mysql> select deptno,max(sal),job from emp group by deptno,job;
++--------+----------+-----------+
+| deptno | max(sal) | job       |
++--------+----------+-----------+
+|     20 |  1100.00 | CLERK     |
+|     30 |  1600.00 | SALESMAN  |
+|     20 |  2975.00 | MANAGER   |
+|     30 |  2850.00 | MANAGER   |
+|     10 |  2450.00 | MANAGER   |
+|     20 |  3000.00 | ANALYST   |
+|     10 |  5000.00 | PRESIDENT |
+|     30 |   950.00 | CLERK     |
+|     10 |  1300.00 | CLERK     |
++--------+----------+-----------+
+9 rows in set (0.00 sec)
+
+mysql> select deptno,max(sal) from emp group by deptno;
++--------+----------+
+| deptno | max(sal) |
++--------+----------+
+|     20 |  3000.00 |
+|     30 |  2850.00 |
+|     10 |  5000.00 |
++--------+----------+
+3 rows in set (0.00 sec)
+
+mysql> select detpno,max(sal) from emp where sal>2900 group by deptno;
+ERROR 1054 (42S22): Unknown column 'detpno' in 'field list'
+mysql> select deptno ,max(sal) from emp where sal>2900 group by deptno;
++--------+----------+
+| deptno | max(sal) |
++--------+----------+
+|     20 |  3000.00 |
+|     10 |  5000.00 |
++--------+----------+
+2 rows in set (0.00 sec)
+
+mysql> select * from emp;
++-------+--------+-----------+------+------------+---------+---------+--------+
+| EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL     | COMM    | DEPTNO |
++-------+--------+-----------+------+------------+---------+---------+--------+
+|  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |  800.00 |    NULL |     20 |
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 | 2850.00 |    NULL |     30 |
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450.00 |    NULL |     10 |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1987-04-19 | 3000.00 |    NULL |     20 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 | 5000.00 |    NULL |     10 |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |
+|  7876 | ADAMS  | CLERK     | 7788 | 1987-05-23 | 1100.00 |    NULL |     20 |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 |  950.00 |    NULL |     30 |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 | 3000.00 |    NULL |     20 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300.00 |    NULL |     10 |
++-------+--------+-----------+------+------------+---------+---------+--------+
+14 rows in set (0.00 sec)
+
+mysql> select deptno,max(sal),job from emp group by job;
+ERROR 1055 (42000): Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bjpowernode.emp.DEPTNO' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+mysql> select deptno , avg(sal) from emp where sal>2000 group by deptno;
++--------+-------------+
+| deptno | avg(sal)    |
++--------+-------------+
+|     20 | 2991.666667 |
+|     30 | 2850.000000 |
+|     10 | 3725.000000 |
++--------+-------------+
+3 rows in set (0.00 sec)
+
+mysql> select deptno,avg(sal) from emp group by deptno;
++--------+-------------+
+| deptno | avg(sal)    |
++--------+-------------+
+|     20 | 2175.000000 |
+|     30 | 1566.666667 |
+|     10 | 2916.666667 |
++--------+-------------+
+3 rows in set (0.00 sec)
+
+mysql> select deptno avg(sal) from emp group by deptno having avg(sal)>2000;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(sal) from emp group by deptno having avg(sal)>2000' at line 1
+mysql> select deptno,avg(sal) from emp where avg(sal)>2000 group by deptno;
+ERROR 1111 (HY000): Invalid use of group function
+mysql> select deptno,avg(sal) from emp group by deptno having avg(sal) > 2000;
++--------+-------------+
+| deptno | avg(sal)    |
++--------+-------------+
+|     20 | 2175.000000 |
+|     10 | 2916.666667 |
++--------+-------------+
+2 rows in set (0.00 sec)
+
+mysql> select distinct job from emp;
++-----------+
+| job       |
++-----------+
+| CLERK     |
+| SALESMAN  |
+| MANAGER   |
+| ANALYST   |
+| PRESIDENT |
++-----------+
+5 rows in set (0.00 sec)
+
+mysql>
